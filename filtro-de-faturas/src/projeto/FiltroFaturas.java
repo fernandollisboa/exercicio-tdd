@@ -18,14 +18,11 @@ public class FiltroFaturas {
         	
         	if (fatura.getValor() < 2000) {
                 iterator.remove();
-            }
-            if (fatura.getValor() >= 2000 && fatura.getValor() <= 2500 && fatura.getData().isBefore(umMesAtras)) {
+            } else if (fatura.getValor() >= 2000 && fatura.getValor() <= 2500 && fatura.getData().isBefore(umMesAtras)) {
             	iterator.remove();
-            }
-            if (fatura.getValor() > 2500 && fatura.getValor() <= 3000 && fatura.getCliente().getDataInclusao().isBefore(doisMesesAtras)) {
+            } else if (fatura.getValor() > 2500 && fatura.getValor() <= 3000 && fatura.getCliente().getDataInclusao().isBefore(doisMesesAtras)) {
             	iterator.remove();
-            }
-            if (fatura.getValor() > 4000 && estadosSul.contains(fatura.getCliente().getEstado())) {
+            } else if (fatura.getValor() > 4000 && estadosSul.contains(fatura.getCliente().getEstado())) {
             	iterator.remove();
             }
         }

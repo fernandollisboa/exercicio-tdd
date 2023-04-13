@@ -7,7 +7,7 @@ import org.junit.Test;
 public class FuncionarioTest {
 
     public Funcionario funcionario =
-        new Funcionario("Fernando", "fernando@email.com", 3500.00, "DESENVOLVEDOR");
+        new Funcionario("Fernando", "fernando@email.com", 3500.00, Cargo.DESENVOLVEDOR);
 
     @Test
     public void testNome() {
@@ -27,8 +27,8 @@ public class FuncionarioTest {
 
     @Test
     public void testCargo() {
-        String cargo = funcionario.getCargo();
-        assertEquals("DESENVOLVEDOR", cargo);
+        Cargo cargo = funcionario.getCargo();
+        assertEquals(Cargo.DESENVOLVEDOR, cargo);
     }
 
 }

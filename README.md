@@ -1,6 +1,6 @@
 # Exercício TDD - Verificação & Validação de Software
 
-Esse repositório foi criado para a atividade de TDD (Test-Driven-Development) na disciplina de Validação e Verificação de Software. CCC@UFCG
+Esse repositório foi criado para a atividade de TDD (Test-Driven Development) na disciplina de Validação e Verificação de Software. CCC@UFCG
 
 ## Alunos
 
@@ -9,7 +9,7 @@ Esse repositório foi criado para a atividade de TDD (Test-Driven-Development) n
 
 # Avaliação dos resultados
 
-Verificamos que implementar as classes somente após os testes nos obrigou a pensar de forma atomizada e iterativa sobre cada funcionalidade, assim tivemos que imaginar tanto os casos mais básicos quanto os de borda e escrever seus respectivos testes pra só depois seguirmos com a implementação.
+Verificamos que implementar as classes somente após os testes nos obrigou a pensar de forma atomizada e iterativa sobre cada funcionalidade, tivemos então que imaginar tanto os casos mais básicos quanto os de borda e escrever seus respectivos testes pra só depois seguirmos com a implementação.
 
 Dentre os pontos positivos, podemos destacar a clareza objetiva do que deve ser feito _(passar nos testes!)_ e o prazer de dever cumprido assim que uma barra se torna verde. Além disso, pensando em projetos maiores, se torna mais fácil a possibilidade de entregar as tasks já com testes, visto que testar após o desenvolvimento acaba sendo uma tarefa muitas vezes negligenciada.
 

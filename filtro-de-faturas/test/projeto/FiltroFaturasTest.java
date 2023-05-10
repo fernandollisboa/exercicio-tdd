@@ -26,7 +26,7 @@ public class FiltroFaturasTest {
 		fatura1 = new Fatura("FAT001", 1000.0, LocalDate.of(2023, 4, 10), cliente);//
 		fatura2 = new Fatura("FAT002", 1500.0, LocalDate.of(2023, 4, 5), cliente);//
 		fatura3 = new Fatura("FAT003", 2000.0, LocalDate.of(2023, 4, 10), cliente);
-		fatura4 = new Fatura("FAT004", 3000.0, LocalDate.of(2023, 2, 10), cliente);//
+		fatura4 = new Fatura("FAT004", 2999.0, LocalDate.of(2023, 2, 10), cliente);//
 		fatura5 = new Fatura("FAT005", 4000.0, LocalDate.of(2023, 1, 10), cliente);
 		fatura6 = new Fatura("FAT006", 900.0, LocalDate.of(2023, 4, 10), cliente);//
 		fatura7 = new Fatura("FAT007", 2000.0, LocalDate.of(2023, 3, 10), cliente);//
